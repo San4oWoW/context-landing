@@ -1,708 +1,403 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Context превращает разговоры в расшифровки, решения и готовые задачи — без ручных конспектов.">
+  <meta name="theme-color" content="#f4f1e9">
+  <title>Context — после встречи всё понятно</title>
 
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
-    <title>Context</title>
-
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/context.css">
+</head>
 
 <body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="icon-arrow" viewBox="0 0 24 24">
+      <path d="M5 12h14M14 7l5 5-5 5"/>
+    </symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24">
+      <path d="m9 7 8 5-8 5V7Z"/>
+    </symbol>
+    <symbol id="icon-mic" viewBox="0 0 24 24">
+      <rect x="8" y="3" width="8" height="13" rx="4"/>
+      <path d="M5 11a7 7 0 0 0 14 0M12 18v3M9 21h6"/>
+    </symbol>
+    <symbol id="icon-text" viewBox="0 0 24 24">
+      <path d="M5 6h14M5 12h14M5 18h9"/>
+    </symbol>
+    <symbol id="icon-users" viewBox="0 0 24 24">
+      <circle cx="9" cy="8" r="3"/>
+      <path d="M3 20c.4-4 2.4-6 6-6s5.6 2 6 6M16 5.5a3 3 0 0 1 0 5.8M17 14c2.5.6 3.7 2.4 4 5"/>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24">
+      <path d="m5 12 4 4L19 6"/>
+    </symbol>
+    <symbol id="icon-spark" viewBox="0 0 24 24">
+      <path d="M12 2c.5 5.5 4.5 9.5 10 10-5.5.5-9.5 4.5-10 10-.5-5.5-4.5-9.5-10-10 5.5-.5 9.5-4.5 10-10Z"/>
+    </symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24">
+      <circle cx="10.5" cy="10.5" r="6.5"/>
+      <path d="m16 16 5 5"/>
+    </symbol>
+    <symbol id="icon-grid" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="7" height="7" rx="2"/>
+      <rect x="14" y="3" width="7" height="7" rx="2"/>
+      <rect x="3" y="14" width="7" height="7" rx="2"/>
+      <rect x="14" y="14" width="7" height="7" rx="2"/>
+    </symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24">
+      <path d="m8 10 4 4 4-4"/>
+    </symbol>
+  </svg>
 
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
+  <header class="site-header" data-header>
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="Context — на главную">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>context</span>
+      </a>
 
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-              <img src="assets/images/logo.png" alt="Context logo">
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Главная</a></li>
-              <li class="scroll-to-section"><a href="#services">Возможности</a></li>
-              <li class="scroll-to-section"><a href="#about">О Context</a></li>
-              <li class="scroll-to-section"><a href="#pricing">Попробовать</a></li>
-              <li class="scroll-to-section"><a href="#pricing">Тарифы</a></li>
-            </ul>
-        
-            <a class='menu-trigger'>
-                <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-menu-toggle>
+        <span></span><span></span>
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+
+      <nav class="nav-links" id="main-nav" aria-label="Основная навигация" data-menu>
+        <a href="#possibilities">Возможности</a>
+        <a href="#how-it-works">Как работает</a>
+        <a href="#for-whom">Для кого</a>
+        <a class="nav-cta" href="mailto:hello@context.ai?subject=Хочу попробовать Context">
+          Попробовать
+          <svg aria-hidden="true"><use href="#icon-arrow"/></svg>
+        </a>
+      </nav>
     </div>
   </header>
-  <!-- ***** Header Area End ***** -->
-  
-  <div id="modal" class="popupContainer" style="display:none;">
-    <div class="popupHeader">
-        <span class="header_title">Login</span>
-        <span class="modal_close"><i class="fa fa-times"></i></span>
-    </div>
 
-    <section class="popupBody">
-        <!-- Social Login -->
-        <div class="social_login">
-            <div class="">
-                <a href="#" class="social_box fb">
-                    <span class="icon"><i class="fab fa-facebook"></i></span>
-                    <span class="icon_title">Connect with Facebook</span>
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
 
-                </a>
-
-                <a href="#" class="social_box google">
-                    <span class="icon"><i class="fab fa-google-plus"></i></span>
-                    <span class="icon_title">Connect with Google</span>
-                </a>
-            </div>
-
-            <div class="centeredText">
-                <span>Or use your Email address</span>
-            </div>
-
-            <div class="action_btns">
-                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
-                <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
-            </div>
+      <div class="shell hero-grid">
+        <div class="hero-copy" data-reveal>
+          <div class="eyebrow"><span></span> AI-сервис для разговоров</div>
+          <h1>Разговор закончился.<br><em>Контекст остался.</em></h1>
+          <p class="hero-lead">Context превращает встречи в понятные итоги, решения и задачи. Чтобы команда двигалась дальше, а не вспоминала, о чём договорились.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:hello@context.ai?subject=Хочу попробовать Context">
+              Попробовать Context
+              <svg aria-hidden="true"><use href="#icon-arrow"/></svg>
+            </a>
+            <a class="button button-ghost" href="#how-it-works">
+              <span class="play-icon"><svg aria-hidden="true"><use href="#icon-play"/></svg></span>
+              Как это работает
+            </a>
+          </div>
+          <div class="hero-note">
+            <span class="avatar-stack" aria-hidden="true">
+              <span>AK</span><span>МС</span><span>+</span>
+            </span>
+            <span>Слышит каждого.<br>Сохраняет главное.</span>
+          </div>
         </div>
 
-        <!-- Username & Password Login form -->
-        <div class="user_login">
-            <form>
-                <label>Email / Username</label>
-                <input type="text" />
-                <br />
+        <div class="product-scene" data-reveal data-delay="120">
+          <div class="scene-label scene-label-top"><span></span> Итоги готовы</div>
+          <div class="scene-label scene-label-bottom">3 задачи созданы <svg aria-hidden="true"><use href="#icon-check"/></svg></div>
 
-                <label>Password</label>
-                <input type="password" />
-                <br />
+          <div class="product-window" aria-hidden="true">
+            <div class="window-bar">
+              <div class="window-controls" aria-hidden="true"><span></span><span></span><span></span></div>
+              <div class="window-address">app.context.ai / meetings</div>
+              <div class="window-user">AA</div>
+            </div>
 
-                <div class="checkbox">
-                    <input id="remember" type="checkbox" />
-                    <label for="remember">Remember me on this computer</label>
+            <div class="app-layout">
+              <aside class="app-sidebar" aria-label="Демонстрационное меню">
+                <div class="app-logo"><span class="brand-mark mini" aria-hidden="true"><span></span></span></div>
+                <span class="side-icon active"><svg><use href="#icon-grid"/></svg></span>
+                <span class="side-icon"><svg><use href="#icon-users"/></svg></span>
+                <span class="side-icon"><svg><use href="#icon-search"/></svg></span>
+                <div class="side-spacer"></div>
+                <div class="side-avatar">AA</div>
+              </aside>
+
+              <div class="meeting-view">
+                <div class="meeting-topline">
+                  <div>
+                    <span class="meeting-kicker">ВСТРЕЧА · СЕГОДНЯ, 10:30</span>
+                    <h2>Новый сценарий онбординга</h2>
+                  </div>
+                  <span class="more-button">•••</span>
                 </div>
 
-                <div class="action_btns">
-                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
-                    <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
+                <div class="participant-row">
+                  <span class="participant participant-purple">АК</span>
+                  <span class="participant participant-orange">М</span>
+                  <span class="participant participant-dark">НС</span>
+                  <span class="participant-count">3 участника</span>
+                  <span class="meeting-duration">42:18</span>
                 </div>
-            </form>
 
-            <a href="#" class="forgot_password">Forgot password?</a>
+                <div class="audio-player">
+                  <span class="audio-play"><svg><use href="#icon-play"/></svg></span>
+                  <div class="waveform" aria-hidden="true">
+                    <i style="--h:9px"></i><i style="--h:15px"></i><i style="--h:21px"></i><i style="--h:12px"></i><i style="--h:25px"></i><i style="--h:17px"></i><i style="--h:8px"></i><i style="--h:22px"></i><i style="--h:27px"></i><i style="--h:16px"></i><i style="--h:11px"></i><i style="--h:24px"></i><i style="--h:19px"></i><i style="--h:29px"></i><i style="--h:13px"></i><i style="--h:20px"></i><i style="--h:9px"></i><i style="--h:15px"></i><i style="--h:23px"></i><i style="--h:12px"></i><i style="--h:26px"></i><i style="--h:18px"></i><i style="--h:8px"></i><i style="--h:21px"></i><i style="--h:14px"></i><i style="--h:25px"></i><i style="--h:11px"></i><i style="--h:19px"></i>
+                  </div>
+                  <span class="audio-time">12:08</span>
+                </div>
+
+                <div class="view-tabs">
+                  <strong class="active">Расшифровка</strong>
+                  <strong>Итоги <span>6</span></strong>
+                </div>
+
+                <div class="transcript">
+                  <div class="transcript-line">
+                    <span class="participant participant-purple">АК</span>
+                    <div><div class="speaker-meta"><strong>Алексей</strong><time>12:08</time></div><p>Давайте упростим первый экран и покажем пользователю следующий шаг сразу.</p></div>
+                  </div>
+                  <div class="transcript-line">
+                    <span class="participant participant-orange">М</span>
+                    <div><div class="speaker-meta"><strong>Мария</strong><time>12:24</time></div><p>Согласна. Я соберу новый прототип к четвергу и добавлю события аналитики.</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="summary-card">
+            <div class="summary-heading">
+              <span class="summary-icon"><svg><use href="#icon-spark"/></svg></span>
+              <div><span>КРАТКИЙ ИТОГ</span><strong>Что решили</strong></div>
+              <span class="summary-status">AI</span>
+            </div>
+            <ul>
+              <li><span><svg><use href="#icon-check"/></svg></span><p>Упростить первый экран онбординга</p></li>
+              <li><span><svg><use href="#icon-check"/></svg></span><p>Подготовить прототип к четвергу</p></li>
+            </ul>
+            <div class="task-row"><span class="participant participant-orange">М</span><div><small>ОТВЕТСТВЕННАЯ</small><strong>Мария · до 8 августа</strong></div><svg><use href="#icon-arrow"/></svg></div>
+          </div>
         </div>
+      </div>
 
-        <!-- Register Form -->
-        <div class="user_register">
-            <form>
-                <label>Full Name</label>
-                <input type="text" />
-                <br />
-
-                <label>Email Address</label>
-                <input type="email" />
-                <br />
-
-                <label>Password</label>
-                <input type="password" />
-                <br />
-
-                <div class="checkbox">
-                    <input id="send_updates" type="checkbox" />
-                    <label for="send_updates">Send me occasional email updates</label>
-                </div>
-
-                <div class="action_btns">
-                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
-                    <div class="one_half last"><a href="#" class="btn btn_red">Register</a></div>
-                </div>
-            </form>
-        </div>
+      <div class="shell outcome-line" data-reveal>
+        <span>Одна встреча</span>
+        <i></i>
+        <strong>расшифровка</strong>
+        <svg><use href="#icon-arrow"/></svg>
+        <strong>итог</strong>
+        <svg><use href="#icon-arrow"/></svg>
+        <strong>готовые задачи</strong>
+      </div>
     </section>
-</div>
 
-  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-6 align-self-center">
-              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <h2>Конспект диалога за 30 секунд</h2>
-                    <p>Context записывает встречу, распознаёт речь, выделяет решения и задачи, а затем отправляет итог прямо к вам. Больше никаких “а что мы решили?”.</p>
-                  </div>
-                 
-                </div>
-              </div>
+    <section class="section possibilities" id="possibilities">
+      <div class="shell">
+        <div class="section-intro" data-reveal>
+          <div class="eyebrow"><span></span> Вместо ручных заметок</div>
+          <h2>Всё важное —<br><em>уже по полочкам</em></h2>
+          <p>Context не просто переводит аудио в текст. Он собирает из разговора рабочий результат, к которому легко вернуться.</p>
+        </div>
+
+        <div class="bento-grid">
+          <article class="feature-card feature-card-dark feature-wide" data-reveal>
+            <div class="feature-copy">
+              <span class="feature-number">01</span>
+              <h3>Точная картина разговора</h3>
+              <p>Полная расшифровка с таймкодами и разделением реплик. Нужный момент всегда можно найти и переслушать.</p>
             </div>
-            <div class="col-lg-6">
-              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/slider-dec.png" alt="">
-              </div>
+            <div class="transcript-visual" aria-hidden="true">
+              <div class="transcript-search"><svg><use href="#icon-search"/></svg><span>Найти в разговоре...</span><kbd>⌘ K</kbd></div>
+              <div class="visual-line active"><span class="participant participant-lime">АК</span><div><strong>Алексей <small>18:42</small></strong><p>Главное — сохранить все договорённости в одном месте.</p></div></div>
+              <div class="visual-line"><span class="participant participant-orange">М</span><div><strong>Мария <small>18:56</small></strong><p>Добавлю задачу в план команды после встречи.</p></div></div>
+              <div class="visual-line muted"><span class="participant participant-blue">НС</span><div><strong>Никита <small>19:12</small></strong><p>Отлично, тогда возвращаемся к этому в пятницу.</p></div></div>
             </div>
-          </div>
+          </article>
+
+          <article class="feature-card feature-people" data-reveal data-delay="80">
+            <div class="feature-copy">
+              <span class="feature-number">02</span>
+              <h3>Понимает, кто говорит</h3>
+              <p>Запоминает знакомые голоса и собирает реплики по людям. Если не уверен — попросит уточнить.</p>
+            </div>
+            <div class="people-visual" aria-hidden="true">
+              <div class="person-card person-back"><span class="person-avatar orange">М</span><div><strong>Мария</strong><small>18 фрагментов</small></div></div>
+              <div class="person-card person-middle"><span class="person-avatar blue">НС</span><div><strong>Никита</strong><small>12 фрагментов</small></div></div>
+              <div class="person-card person-front"><span class="person-avatar purple">АК</span><div><strong>Алексей</strong><small>Голос подтверждён</small></div><span class="confirmed"><svg><use href="#icon-check"/></svg></span></div>
+            </div>
+          </article>
+
+          <article class="feature-card feature-action" data-reveal>
+            <div class="feature-copy">
+              <span class="feature-number">03</span>
+              <h3>Находит решения<br>и следующие шаги</h3>
+              <p>Выделяет договорённости, вопросы и задачи прямо из разговора.</p>
+            </div>
+            <div class="action-visual" aria-hidden="true">
+              <div class="action-label"><span><svg><use href="#icon-spark"/></svg></span> Найдено в разговоре</div>
+              <div class="action-task"><span class="task-check"><svg><use href="#icon-check"/></svg></span><div><strong>Обновить прототип</strong><small>Мария · до четверга</small></div><span class="participant participant-orange">М</span></div>
+              <div class="action-task faded"><span class="task-check"><svg><use href="#icon-check"/></svg></span><div><strong>Проверить аналитику</strong><small>Алексей · в пятницу</small></div><span class="participant participant-purple">АК</span></div>
+            </div>
+          </article>
+
+          <article class="feature-card feature-history" data-reveal data-delay="80">
+            <div class="feature-copy">
+              <span class="feature-number">04</span>
+              <h3>Хранит историю, а не хаос</h3>
+              <p>Встречи, участники и результаты остаются в единой базе. Контекст находится по смыслу, а не по имени файла.</p>
+            </div>
+            <div class="history-search" aria-hidden="true">
+              <svg><use href="#icon-search"/></svg>
+              <span>Что решили по онбордингу?</span>
+              <i></i>
+            </div>
+          </article>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div id="services" class="services section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-            <h4>Ключевые <em>ВОЗМОЖНОСТИ</em> Context</h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Context в реальном времени превращает разговоры в структурированные данные и рабочие задачи - без ручной работы.</p>
-          </div>
+    <section class="section process" id="how-it-works">
+      <div class="shell process-grid">
+        <div class="process-sticky" data-reveal>
+          <div class="eyebrow eyebrow-light"><span></span> Как это работает</div>
+          <h2>От живого разговора<br>к ясному <em>результату</em></h2>
+          <p>Никаких новых ритуалов для команды. Поговорили как обычно — остальное Context берёт на себя.</p>
+          <a class="button button-light" href="mailto:hello@context.ai?subject=Хочу увидеть Context в работе">
+            Посмотреть в работе
+            <svg aria-hidden="true"><use href="#icon-arrow"/></svg>
+          </a>
+        </div>
+
+        <div class="process-steps">
+          <article class="process-step" data-reveal>
+            <span class="step-index">01</span>
+            <div class="step-icon"><svg><use href="#icon-mic"/></svg></div>
+            <div><h3>Записывает и расшифровывает</h3><p>Context превращает аудио встречи в структурированный диалог и разделяет реплики участников.</p></div>
+          </article>
+          <article class="process-step" data-reveal>
+            <span class="step-index">02</span>
+            <div class="step-icon"><svg><use href="#icon-spark"/></svg></div>
+            <div><h3>Понимает суть</h3><p>AI находит важные темы, решения, вопросы и обещания — без необходимости перечитывать всю стенограмму.</p></div>
+          </article>
+          <article class="process-step" data-reveal>
+            <span class="step-index">03</span>
+            <div class="step-icon"><svg><use href="#icon-check"/></svg></div>
+            <div><h3>Превращает слова в действия</h3><p>После встречи у команды остаётся короткий итог и понятный список следующих шагов с ответственными.</p></div>
+          </article>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="service-item first-service">
-            <div class="icon"></div>
-            <h4>AI-движок распознавания речи</h4>
-            <p>Context в реальном времени переводит звук в текст, точно распознаёт речь и разделяет реплики участников созвона.</p>
+    </section>
+
+    <section class="statement" aria-label="Ключевая идея">
+      <div class="statement-track" aria-hidden="true">
+        <span>Не переслушивать.</span><i>✦</i><span>Не вспоминать.</span><i>✦</i><strong>Действовать.</strong><i>✦</i>
+        <span>Не переслушивать.</span><i>✦</i><span>Не вспоминать.</span><i>✦</i><strong>Действовать.</strong><i>✦</i>
+      </div>
+      <p class="visually-hidden">Не переслушивать. Не вспоминать. Действовать.</p>
+    </section>
+
+    <section class="section use-cases" id="for-whom">
+      <div class="shell">
+        <div class="use-case-heading" data-reveal>
+          <div>
+            <div class="eyebrow"><span></span> Для разговоров, где есть результат</div>
+            <h2>Каждой команде —<br>свой <em>контекст</em></h2>
           </div>
+          <p>Один инструмент для встреч, после которых важно ничего не потерять.</p>
         </div>
-        <div class="col-lg-3">
-          <div class="service-item second-service">
-            <div class="icon"></div>
-            <h4>Результат за секунды</h4>
-            <p>Готовый конспект, решения и задачи появляются через несколько секунд после завершения встречи - без ожиданий и ручной работы.</p>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
-            <h4>Классификация и структура</h4>
-            <p>Context анализирует смысл диалога и автоматически выделяет решения, вопросы, договорённости и следующие шаги.</p>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="service-item fourth-service">
-            <div class="icon"></div>
-            <h4>Задачи и интеграции</h4>
-            <p>Все задачи и итоги отправляются в CRM и таск-трекеры, сохраняя историю обсуждений и ответственность команды.</p>
-          </div>
+
+        <div class="use-case-grid">
+          <article class="use-case-card sales" data-reveal>
+            <span class="use-case-index">01</span>
+            <div class="use-case-art" aria-hidden="true"><span class="bubble bubble-one"></span><span class="bubble bubble-two"></span><span class="bubble bubble-three"></span><svg><use href="#icon-arrow"/></svg></div>
+            <h3>Продажи</h3>
+            <p>Фиксируйте потребности клиента, обещания и следующий шаг по сделке.</p>
+            <span class="use-tag">Клиентские звонки</span>
+          </article>
+          <article class="use-case-card product" data-reveal data-delay="70">
+            <span class="use-case-index">02</span>
+            <div class="use-case-art board" aria-hidden="true"><span></span><span></span><span></span><svg><use href="#icon-arrow"/></svg></div>
+            <h3>Продуктовые команды</h3>
+            <p>Собирайте решения, открытые вопросы и договорённости в одном месте.</p>
+            <span class="use-tag">Синхронизации</span>
+          </article>
+          <article class="use-case-card research" data-reveal data-delay="140">
+            <span class="use-case-index">03</span>
+            <div class="use-case-art quotes" aria-hidden="true"><span>“</span><span>”</span><svg><use href="#icon-arrow"/></svg></div>
+            <h3>Интервью и исследования</h3>
+            <p>Возвращайтесь к точным формулировкам и находите повторяющиеся темы.</p>
+            <span class="use-tag">Глубинные интервью</span>
+          </article>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div id="about" class="about-us section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="section-heading">
-            <h4>Context — <em>зачем мы существуем</em></h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Context — это AI-сервис, который помогает командам не терять смысл разговоров. Мы превращаем диалоги в структурированные итоги, решения и задачи, которые сразу попадают в рабочие системы.</p>
-          </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="box-item">
-                <h4><a href="#">Ручное конспектирование — в прошлом</a></h4>
-                <p>Context автоматически записывает, расшифровывает и структурирует созвоны.</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="box-item">
-                <h4><a href="#">Работает без участия человека</a></h4>
-                <p>Сервис анализирует встречи автоматически — без менеджеров и ассистентов.</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="box-item">
-                <h4><a href="#">Понимает смысл разговора</a></h4>
-                <p>Мы выделяем решения, вопросы, договорённости и следующие шаги.</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="box-item">
-                <h4><a href="#">Часть вашего процесса</a></h4>
-                <p>Итоги и задачи сразу отправляются в CRM и таск-трекеры команды.</p>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="gradient-button">
-                <a href="#">Попробовать бесплатно</a>
-              </div>
-            </div>
-          </div>
+    <section class="section integration-section">
+      <div class="shell integration-card" data-reveal>
+        <div class="integration-copy">
+          <div class="eyebrow eyebrow-light"><span></span> В привычном процессе</div>
+          <h2>Итог приходит туда,<br>где уже <em>работает команда</em></h2>
+          <p>Передавайте решения и задачи в рабочие системы, сохраняя связь с исходным разговором.</p>
         </div>
-        <div class="col-lg-6">
-          <div class="right-image">
-            <img src="assets/images/about-right-dec.png" alt="">
-          </div>
+        <div class="orbit" aria-hidden="true">
+          <div class="orbit-ring orbit-ring-large"></div>
+          <div class="orbit-ring orbit-ring-small"></div>
+          <div class="orbit-core"><span class="brand-mark light"><span></span></span><strong>context</strong></div>
+          <span class="orbit-item orbit-item-one"><svg><use href="#icon-check"/></svg></span>
+          <span class="orbit-item orbit-item-two"><svg><use href="#icon-text"/></svg></span>
+          <span class="orbit-item orbit-item-three"><svg><use href="#icon-users"/></svg></span>
+          <span class="orbit-item orbit-item-four"><svg><use href="#icon-grid"/></svg></span>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div id="clients" class="the-clients">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading">
-            <h4>Первые впечатления от Context</h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
-            <p></p>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="naccs">
-            <div class="grid">
-              <div class="row">
-                <div class="col-lg-7 align-self-center">
-                  <div class="menu">
-                    <div class="first-thumb active">
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>Менеджер по продажам</h4>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">“После звонка сразу вижу, что мы решили и какой следующий шаг. Перестал слушать конспекты еще раз.”</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">4.8</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>Продуктовый менеджер</h4>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">“Удобно, что Context выделяет решения и вопросы. Легко восстановить контекст обсуждений через неделю.”</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">4.5</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>Tech Lead</h4>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">“Не нужно переслушивать записи. Смотрю краткий итог и понимаю, что от меня ждут.”</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">4.7</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>CEO Startup</h4>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">“Задачи после встреч стали появляться автоматически. Команда меньше теряет договорённости.”</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">3.9</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="last-thumb">
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>Support Manager</h4>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">“Всегда видно, что именно пообещали клиенту на созвоне.”</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">4.3</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> 
-                <div class="col-lg-5">
-                  <ul class="nacc">
-                    <li class="active">
-                      <div>
-                        <div class="thumb">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="client-content">
-                                <img src="assets/images/quote.png" alt="">
-                                <p>“Context убирает самую раздражающую часть созвонов — необходимость помнить и фиксировать договорённости. После встречи сразу понятно, что решили и что делать дальше.”</p>
-                              </div>
-                            
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="thumb">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="client-content">
-                                <img src="assets/images/quote.png" alt="">
-                                <p>“CTO, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
-                              </div>
-                              <div class="down-content">
-                                <img src="assets/images/client-image.jpg" alt="">
-                                <div class="right-content">
-                                  <h4>Jake H. Nyo</h4>
-                                  <span>CTO of Digital Company</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="thumb">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="client-content">
-                                <img src="assets/images/quote.png" alt="">
-                                <p>“May, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
-                              </div>
-                              <div class="down-content">
-                                <img src="assets/images/client-image.jpg" alt="">
-                                <div class="right-content">
-                                  <h4>May C.</h4>
-                                  <span>Founder of Catherina Co.</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="thumb">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="client-content">
-                                <img src="assets/images/quote.png" alt="">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
-                              </div>
-                              <div class="down-content">
-                                <img src="assets/images/client-image.jpg" alt="">
-                                <div class="right-content">
-                                  <h4>Random Staff</h4>
-                                  <span>Manager, Digital Company</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="thumb">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="client-content">
-                                <img src="assets/images/quote.png" alt="">
-                                <p>“Mark, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
-                              </div>
-                              <div class="down-content">
-                                <img src="assets/images/client-image.jpg" alt="">
-                                <div class="right-content">
-                                  <h4>Mark Am</h4>
-                                  <span>CTO, Amber Do Company</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>          
-              </div>
-            </div>
-          </div>
+    <section class="section final-cta" id="cta">
+      <div class="shell cta-card" data-reveal>
+        <div class="cta-spark cta-spark-one" aria-hidden="true">✦</div>
+        <div class="cta-spark cta-spark-two" aria-hidden="true">✦</div>
+        <div class="eyebrow"><span></span> Попробуйте на следующей встрече</div>
+        <h2>Поговорите.<br><em>Context запомнит.</em></h2>
+        <p>Оставьте ручные конспекты в прошлом и забирайте из каждого разговора готовый результат.</p>
+        <a class="button button-primary" href="mailto:hello@context.ai?subject=Хочу попробовать Context">
+          Попробовать Context
+          <svg aria-hidden="true"><use href="#icon-arrow"/></svg>
+        </a>
+        <small>Напишите нам — покажем продукт и поможем начать.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <div class="footer-top">
+        <a class="brand brand-footer" href="#top" aria-label="Context — на главную">
+          <span class="brand-mark light" aria-hidden="true"><span></span></span>
+          <span>context</span>
+        </a>
+        <p>После встречи<br>всё понятно.</p>
+        <div class="footer-contact">
+          <span>СВЯЗАТЬСЯ</span>
+          <a href="mailto:hello@context.ai">hello@context.ai</a>
+          <a href="tel:+79526465361">+7 (952) 646-53-61</a>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div id="pricing" class="pricing-tables">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading">
-            <h4>Простые <em>тарифы</em></h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Платите только за полезные созвоны и готовые итоги — без лишних ограничений.</p>
-          </div>
-        </div>
-
-        <!-- Starter -->
-        <div class="col-lg-4">
-          <div class="pricing-item-regular">
-            <span class="price"></span>
-            <h4>Starter</h4>
-            <div class="icon">
-              <img src="assets/images/pricing-table-01.png" alt="">
-            </div>
-            <ul>
-              <li>До 10 часов созвонов в месяц</li>
-              <li>Распознавание речи</li>
-              <li>Краткий конспект встречи</li>
-              <li>Итоги и договорённости</li>
-              <li class="non-function">Интеграции с CRM</li>
-              <li class="non-function">Командный доступ</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">Попробовать бесплатно</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Team (main) -->
-        <div class="col-lg-4">
-          <div class="pricing-item-pro">
-            <span class="price"></span>
-            <h4>Team</h4>
-            <div class="icon">
-              <img src="assets/images/pricing-table-01.png" alt="">
-            </div>
-            <ul>
-              <li>До 40 часов созвонов в месяц</li>
-              <li>Всё из Starter</li>
-              <li>Автоматические задачи</li>
-              <li>Интеграции с CRM и таск-трекерами</li>
-              <li>Общая база встреч команды</li>
-              <li class="non-function">Роли и доступы</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">Начать использовать</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Business -->
-        <div class="col-lg-4">
-          <div class="pricing-item-regular">
-            <span class="price"></span>
-            <h4>Business</h4>
-            <div class="icon">
-              <img src="assets/images/pricing-table-01.png" alt="">
-            </div>
-            <ul>
-              <li>До 120 часов созвонов в месяц</li>
-              <li>Всё из Team</li>
-              <li>Роли и уровни доступа</li>
-              <li>Приоритетная обработка</li>
-              <li>Расширенные настройки хранения</li>
-              <li>Поддержка команд</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">Запросить демо</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-  <footer id="footer">
-    <div class="container">
-
-      <!-- Final CTA -->
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading">
-            <h4>Попробуйте Context и перестаньте терять договорённости после созвонов</h4>
-            
-            
-          </div>
-        </div>
-      </div>
-
-      <!-- Footer content -->
-      <div class="row" style="margin-top:60px;">
-
-        <!-- Product -->
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>Продукт</h4>
-            <ul>
-              <li><a href="#services">Возможности</a></li>
-              <li><a href="#about">О Context</a></li>
-              <li><a href="#pricing">Тарифы</a></li>
-              <li><a href="#">Пример конспекта</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Use cases -->
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>Кому подойдёт</h4>
-            <ul>
-              <li><a href="#">Продажи</a></li>
-              <li><a href="#">Продуктовые команды</a></li>
-              <li><a href="#">Рекрутинг</a></li>
-              <li><a href="#">Поддержка</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Company / Contacts -->
-        <div class="col-lg-4">
-          <div class="footer-widget">
-            <h4>Контакты</h4>
-            <ul>
-              <li>
-                <a href="mailto:hello@context.ai">
-                  📧 hello@context.ai
-                </a>
-              </li>
-              <li>
-                <a href="tel:+79526465361">
-                  📞 +7 (952) 646-53-61
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Политика конфиденциальности
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Условия использования
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-
-        <!-- Brand -->
-        <div class="col-lg-2">
-          <div class="footer-widget">
-            <h4>Context</h4>
-            <div class="logo">
-            </div>
-            <p>
-              Context — AI-сервис, который превращает созвоны в структурированные итоги,
-              решения и задачи для команд.
-            </p>
-          </div>
-        </div>
-
-        <!-- Copyright -->
-        <div class="col-lg-12">
-          <div class="copyright-text">
-            <p>
-              © 2025 Context. All rights reserved.
-              <br>
-              Built for teams who value clarity after every conversation.
-            </p>
-          </div>
-        </div>
-
+      <div class="footer-bottom">
+        <span>© 2026 Context</span>
+        <nav aria-label="Навигация в подвале">
+          <a href="#possibilities">Возможности</a>
+          <a href="#how-it-works">Как работает</a>
+          <a href="#for-whom">Для кого</a>
+        </nav>
+        <a class="back-to-top" href="#top">Наверх <svg><use href="#icon-arrow"/></svg></a>
       </div>
     </div>
   </footer>
 
-
-
-  <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/context.js"></script>
 </body>
 </html>
