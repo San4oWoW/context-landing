@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://san4owow.github.io/context-landing/sitemap.xml

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Context — AI-ассистент для встреч</title>
+  <desc id="desc">Разговор закончился. Контекст остался.</desc>
+  <rect width="1200" height="630" fill="#f4f1e9"/>
+  <circle cx="1120" cy="100" r="300" fill="#ded9ff"/>
+  <circle cx="30" cy="660" r="235" fill="#e8ff9f"/>
+  <path d="M850-40 665 680" stroke="#111313" stroke-opacity=".08"/>
+
+  <g transform="translate(72 58)">
+    <circle cx="18" cy="18" r="17" fill="none" stroke="#111313" stroke-width="3"/>
+    <circle cx="18" cy="18" r="7" fill="none" stroke="#111313" stroke-width="3"/>
+    <circle cx="32" cy="12" r="6" fill="#6757ed" stroke="#f4f1e9" stroke-width="3"/>
+    <text x="50" y="27" fill="#111313" font-family="Arial, sans-serif" font-size="25" font-weight="700">context</text>
+  </g>
+
+  <g transform="translate(72 164)">
+    <circle cx="6" cy="-6" r="6" fill="#6757ed"/>
+    <text x="23" y="0" fill="#555854" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">AI-АССИСТЕНТ ДЛЯ ВСТРЕЧ</text>
+    <text x="0" y="92" fill="#111313" font-family="Arial, sans-serif" font-size="69" font-weight="700" letter-spacing="-3">Разговор закончился.</text>
+    <text x="0" y="180" fill="#6757ed" font-family="Georgia, serif" font-size="75" font-style="italic" letter-spacing="-3">Контекст остался.</text>
+    <text x="0" y="240" fill="#636661" font-family="Arial, sans-serif" font-size="20">Расшифровка, решения и задачи</text>
+    <text x="0" y="270" fill="#636661" font-family="Arial, sans-serif" font-size="20">после каждой встречи.</text>
+    <g transform="translate(0 312)">
+      <rect width="214" height="54" rx="27" fill="#6757ed"/>
+      <text x="27" y="34" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="700">Попробовать Context</text>
+      <path d="M181 27h12m-5-5 5 5-5 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <g transform="translate(735 106)">
+    <rect width="400" height="432" rx="24" fill="#fffefb" stroke="#111313" stroke-opacity=".12"/>
+    <rect width="400" height="46" rx="24" fill="#ebe8e0"/>
+    <rect y="24" width="400" height="22" fill="#ebe8e0"/>
+    <circle cx="22" cy="23" r="4" fill="#b9b6ae"/><circle cx="35" cy="23" r="4" fill="#b9b6ae"/><circle cx="48" cy="23" r="4" fill="#b9b6ae"/>
+    <rect x="116" y="14" width="168" height="18" rx="5" fill="#fff" fill-opacity=".8"/>
+    <text x="161" y="26" fill="#a09e97" font-family="Arial, sans-serif" font-size="7">context / meetings</text>
+    <rect y="46" width="55" height="386" fill="#111313"/>
+    <circle cx="27" cy="82" r="12" fill="none" stroke="#fff" stroke-width="2"/>
+    <circle cx="37" cy="78" r="4" fill="#6757ed" stroke="#111313" stroke-width="2"/>
+    <rect x="11" y="111" width="33" height="33" rx="10" fill="#d9ff63"/>
+    <rect x="18" y="118" width="7" height="7" rx="2" fill="none" stroke="#111313"/><rect x="30" y="118" width="7" height="7" rx="2" fill="none" stroke="#111313"/><rect x="18" y="130" width="7" height="7" rx="2" fill="none" stroke="#111313"/><rect x="30" y="130" width="7" height="7" rx="2" fill="none" stroke="#111313"/>
+
+    <text x="82" y="82" fill="#8a8c87" font-family="Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1">ВСТРЕЧА · СЕГОДНЯ</text>
+    <text x="82" y="112" fill="#111313" font-family="Arial, sans-serif" font-size="20" font-weight="700">Новый сценарий онбординга</text>
+    <circle cx="93" cy="143" r="13" fill="#6757ed"/><circle cx="113" cy="143" r="13" fill="#ff8a5b"/><circle cx="133" cy="143" r="13" fill="#111313"/>
+    <text x="153" y="147" fill="#777974" font-family="Arial, sans-serif" font-size="9">3 участника</text>
+    <rect x="82" y="171" width="286" height="58" rx="13" fill="#efede7"/>
+    <circle cx="108" cy="200" r="15" fill="#6757ed"/>
+    <path d="m104 194 10 6-10 6Z" fill="#fff"/>
+    <path d="M137 202v-9m7 15v-21m7 17v-13m7 20v-27m7 20v-13m7 9v-5m7 12v-19m7 16v-11m7 6v-3m7 13v-23m7 19v-15m7 10v-5m7 13v-21m7 17v-13m7 8v-3m7 11v-17m7 13v-9m7 6v-3" fill="none" stroke="#6757ed" stroke-width="2"/>
+    <text x="82" y="264" fill="#111313" font-family="Arial, sans-serif" font-size="11" font-weight="700">Расшифровка</text>
+    <path d="M82 275h64" stroke="#6757ed" stroke-width="2"/>
+    <circle cx="94" cy="306" r="12" fill="#6757ed"/><text x="116" y="302" fill="#111313" font-family="Arial, sans-serif" font-size="10" font-weight="700">Алексей</text><text x="116" y="320" fill="#72746f" font-family="Arial, sans-serif" font-size="9">Покажем следующий шаг сразу.</text>
+    <circle cx="94" cy="350" r="12" fill="#ff8a5b"/><text x="116" y="346" fill="#111313" font-family="Arial, sans-serif" font-size="10" font-weight="700">Мария</text><text x="116" y="364" fill="#72746f" font-family="Arial, sans-serif" font-size="9">Соберу новый прототип.</text>
+
+    <g transform="translate(182 306) rotate(2)">
+      <rect width="238" height="174" rx="18" fill="#171918"/>
+      <circle cx="27" cy="28" r="15" fill="#d9ff63"/>
+      <path d="M27 20c1 5 4 7 9 8-5 1-8 4-9 9-1-5-4-8-9-9 5-1 8-3 9-8Z" fill="#111313"/>
+      <text x="50" y="23" fill="#777c77" font-family="Arial, sans-serif" font-size="7" font-weight="700" letter-spacing="1">КРАТКИЙ ИТОГ</text>
+      <text x="50" y="39" fill="#fff" font-family="Arial, sans-serif" font-size="11" font-weight="700">Что решили</text>
+      <rect x="17" y="60" width="204" height="36" rx="8" fill="#242725"/>
+      <circle cx="33" cy="78" r="8" fill="#d9ff63"/><path d="m29 78 3 3 5-6" fill="none" stroke="#111313" stroke-width="2"/>
+      <text x="49" y="81" fill="#fff" font-family="Arial, sans-serif" font-size="8">Упростить первый экран</text>
+      <rect x="17" y="104" width="204" height="36" rx="8" fill="#242725"/>
+      <circle cx="33" cy="122" r="8" fill="#d9ff63"/><path d="m29 122 3 3 5-6" fill="none" stroke="#111313" stroke-width="2"/>
+      <text x="49" y="125" fill="#fff" font-family="Arial, sans-serif" font-size="8">Подготовить прототип</text>
+      <text x="17" y="158" fill="#8a8e89" font-family="Arial, sans-serif" font-size="8">Мария · до четверга</text>
+    </g>
+  </g>
+</svg>

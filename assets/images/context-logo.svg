@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Context</title>
+  <desc id="desc">Знак сервиса Context</desc>
+  <rect width="512" height="512" rx="112" fill="#f4f1e9"/>
+  <circle cx="256" cy="256" r="158" fill="none" stroke="#111313" stroke-width="28"/>
+  <circle cx="256" cy="256" r="72" fill="none" stroke="#111313" stroke-width="28"/>
+  <circle cx="397" cy="196" r="55" fill="#6757ed" stroke="#f4f1e9" stroke-width="22"/>
+</svg>
