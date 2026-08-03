@@ -1,72 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Context — AI-ассистент для встреч</title>
-  <desc id="desc">Разговор закончился. Контекст остался.</desc>
-  <rect width="1200" height="630" fill="#f4f1e9"/>
-  <circle cx="1120" cy="100" r="300" fill="#ded9ff"/>
-  <circle cx="30" cy="660" r="235" fill="#e8ff9f"/>
-  <path d="M850-40 665 680" stroke="#111313" stroke-opacity=".08"/>
+  <title id="title">Context — AI-помощник для встреч</title>
+  <desc id="desc">Запись, расшифровка и итоги встреч в одном месте</desc>
+  <defs>
+    <linearGradient id="logoBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4380ff"/>
+      <stop offset="1" stop-color="#4152de"/>
+    </linearGradient>
+    <linearGradient id="pageGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f6f9fd"/>
+      <stop offset="1" stop-color="#eaf1ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#1f3652" flood-opacity=".15"/>
+    </filter>
+  </defs>
 
-  <g transform="translate(72 58)">
-    <circle cx="18" cy="18" r="17" fill="none" stroke="#111313" stroke-width="3"/>
-    <circle cx="18" cy="18" r="7" fill="none" stroke="#111313" stroke-width="3"/>
-    <circle cx="32" cy="12" r="6" fill="#6757ed" stroke="#f4f1e9" stroke-width="3"/>
-    <text x="50" y="27" fill="#111313" font-family="Arial, sans-serif" font-size="25" font-weight="700">context</text>
+  <rect width="1200" height="630" fill="url(#pageGlow)"/>
+  <circle cx="1140" cy="80" r="250" fill="#2d67f6" opacity=".06"/>
+
+  <g transform="translate(62 48)">
+    <rect width="52" height="52" rx="15" fill="url(#logoBlue)"/>
+    <g fill="#fff" transform="translate(14 10)">
+      <rect x="0" y="11" width="2.5" height="10" rx="1.25" opacity=".8"/>
+      <rect x="5.5" y="6" width="2.5" height="20" rx="1.25"/>
+      <rect x="11" y="0" width="2.5" height="32" rx="1.25"/>
+      <rect x="16.5" y="6" width="2.5" height="20" rx="1.25"/>
+      <rect x="22" y="11" width="2.5" height="10" rx="1.25" opacity=".8"/>
+    </g>
+    <text x="66" y="23" fill="#101828" font-family="Arial, sans-serif" font-size="19" font-weight="700">Контекст</text>
+    <text x="66" y="41" fill="#5d718f" font-family="Arial, sans-serif" font-size="10">Разговоры в структуру</text>
   </g>
 
-  <g transform="translate(72 164)">
-    <circle cx="6" cy="-6" r="6" fill="#6757ed"/>
-    <text x="23" y="0" fill="#555854" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">AI-АССИСТЕНТ ДЛЯ ВСТРЕЧ</text>
-    <text x="0" y="92" fill="#111313" font-family="Arial, sans-serif" font-size="69" font-weight="700" letter-spacing="-3">Разговор закончился.</text>
-    <text x="0" y="180" fill="#6757ed" font-family="Georgia, serif" font-size="75" font-style="italic" letter-spacing="-3">Контекст остался.</text>
-    <text x="0" y="240" fill="#636661" font-family="Arial, sans-serif" font-size="20">Расшифровка, решения и задачи</text>
-    <text x="0" y="270" fill="#636661" font-family="Arial, sans-serif" font-size="20">после каждой встречи.</text>
-    <g transform="translate(0 312)">
-      <rect width="214" height="54" rx="27" fill="#6757ed"/>
-      <text x="27" y="34" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="700">Попробовать Context</text>
-      <path d="M181 27h12m-5-5 5 5-5 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
+  <g transform="translate(62 165)">
+    <rect width="198" height="30" rx="15" fill="#eaf2ff" stroke="#d3e2ff"/>
+    <circle cx="16" cy="15" r="4" fill="#2d67f6"/>
+    <text x="29" y="19" fill="#2d67f6" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">AI-ПОМОЩНИК ДЛЯ ВСТРЕЧ</text>
+
+    <text y="103" fill="#101828" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-2.5">Запись, расшифровка</text>
+    <text y="170" fill="#101828" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-2.5">и итоги встреч —</text>
+    <text y="237" fill="#2d67f6" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-2.5">в одном месте</text>
+    <text y="290" fill="#5d718f" font-family="Arial, sans-serif" font-size="17">Распознавание участников, решения и задачи</text>
+    <text y="316" fill="#5d718f" font-family="Arial, sans-serif" font-size="17">после каждого разговора.</text>
+
+    <rect y="350" width="202" height="50" rx="10" fill="#2d67f6"/>
+    <text x="25" y="381" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="700">Попробовать бесплатно</text>
+    <path d="M171 375h13m-5-5 5 5-5 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <g transform="translate(735 106)">
-    <rect width="400" height="432" rx="24" fill="#fffefb" stroke="#111313" stroke-opacity=".12"/>
-    <rect width="400" height="46" rx="24" fill="#ebe8e0"/>
-    <rect y="24" width="400" height="22" fill="#ebe8e0"/>
-    <circle cx="22" cy="23" r="4" fill="#b9b6ae"/><circle cx="35" cy="23" r="4" fill="#b9b6ae"/><circle cx="48" cy="23" r="4" fill="#b9b6ae"/>
-    <rect x="116" y="14" width="168" height="18" rx="5" fill="#fff" fill-opacity=".8"/>
-    <text x="161" y="26" fill="#a09e97" font-family="Arial, sans-serif" font-size="7">context / meetings</text>
-    <rect y="46" width="55" height="386" fill="#111313"/>
-    <circle cx="27" cy="82" r="12" fill="none" stroke="#fff" stroke-width="2"/>
-    <circle cx="37" cy="78" r="4" fill="#6757ed" stroke="#111313" stroke-width="2"/>
-    <rect x="11" y="111" width="33" height="33" rx="10" fill="#d9ff63"/>
-    <rect x="18" y="118" width="7" height="7" rx="2" fill="none" stroke="#111313"/><rect x="30" y="118" width="7" height="7" rx="2" fill="none" stroke="#111313"/><rect x="18" y="130" width="7" height="7" rx="2" fill="none" stroke="#111313"/><rect x="30" y="130" width="7" height="7" rx="2" fill="none" stroke="#111313"/>
+  <g transform="translate(712 124)" filter="url(#shadow)">
+    <rect width="430" height="410" rx="24" fill="#fff" stroke="#d6e0ec"/>
+    <rect width="110" height="410" rx="24" fill="#233d5d"/>
+    <rect x="86" width="24" height="410" fill="#233d5d"/>
+    <rect x="13" y="20" width="28" height="28" rx="8" fill="url(#logoBlue)"/>
+    <text x="49" y="38" fill="#fff" font-family="Arial, sans-serif" font-size="8" font-weight="700">Контекст</text>
+    <text x="17" y="92" fill="#91a6c0" font-family="Arial, sans-serif" font-size="6" font-weight="700">РАБОТА</text>
+    <rect x="12" y="105" width="86" height="34" rx="9" fill="#eef5ff"/>
+    <rect x="22" y="115" width="14" height="14" rx="4" fill="#dceaff"/>
+    <text x="43" y="126" fill="#2d67f6" font-family="Arial, sans-serif" font-size="6.5" font-weight="700">Распознавания</text>
+    <text x="17" y="168" fill="#91a6c0" font-family="Arial, sans-serif" font-size="6" font-weight="700">АККАУНТ</text>
+    <text x="43" y="198" fill="#c6d3e2" font-family="Arial, sans-serif" font-size="6.5" font-weight="700">Профиль</text>
 
-    <text x="82" y="82" fill="#8a8c87" font-family="Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1">ВСТРЕЧА · СЕГОДНЯ</text>
-    <text x="82" y="112" fill="#111313" font-family="Arial, sans-serif" font-size="20" font-weight="700">Новый сценарий онбординга</text>
-    <circle cx="93" cy="143" r="13" fill="#6757ed"/><circle cx="113" cy="143" r="13" fill="#ff8a5b"/><circle cx="133" cy="143" r="13" fill="#111313"/>
-    <text x="153" y="147" fill="#777974" font-family="Arial, sans-serif" font-size="9">3 участника</text>
-    <rect x="82" y="171" width="286" height="58" rx="13" fill="#efede7"/>
-    <circle cx="108" cy="200" r="15" fill="#6757ed"/>
-    <path d="m104 194 10 6-10 6Z" fill="#fff"/>
-    <path d="M137 202v-9m7 15v-21m7 17v-13m7 20v-27m7 20v-13m7 9v-5m7 12v-19m7 16v-11m7 6v-3m7 13v-23m7 19v-15m7 10v-5m7 13v-21m7 17v-13m7 8v-3m7 11v-17m7 13v-9m7 6v-3" fill="none" stroke="#6757ed" stroke-width="2"/>
-    <text x="82" y="264" fill="#111313" font-family="Arial, sans-serif" font-size="11" font-weight="700">Расшифровка</text>
-    <path d="M82 275h64" stroke="#6757ed" stroke-width="2"/>
-    <circle cx="94" cy="306" r="12" fill="#6757ed"/><text x="116" y="302" fill="#111313" font-family="Arial, sans-serif" font-size="10" font-weight="700">Алексей</text><text x="116" y="320" fill="#72746f" font-family="Arial, sans-serif" font-size="9">Покажем следующий шаг сразу.</text>
-    <circle cx="94" cy="350" r="12" fill="#ff8a5b"/><text x="116" y="346" fill="#111313" font-family="Arial, sans-serif" font-size="10" font-weight="700">Мария</text><text x="116" y="364" fill="#72746f" font-family="Arial, sans-serif" font-size="9">Соберу новый прототип.</text>
+    <rect x="110" width="320" height="50" rx="24" fill="#fff"/>
+    <rect x="110" y="24" width="320" height="26" fill="#fff"/>
+    <text x="132" y="20" fill="#8da0b8" font-family="Arial, sans-serif" font-size="5.5" font-weight="700">РАБОЧЕЕ ПРОСТРАНСТВО</text>
+    <text x="132" y="34" fill="#101828" font-family="Arial, sans-serif" font-size="7.5" font-weight="700">Распознавания</text>
+    <rect x="390" y="12" width="27" height="27" rx="8" fill="#2d67f6"/>
+    <text x="400" y="30" fill="#fff" font-family="Arial, sans-serif" font-size="9" font-weight="700">A</text>
 
-    <g transform="translate(182 306) rotate(2)">
-      <rect width="238" height="174" rx="18" fill="#171918"/>
-      <circle cx="27" cy="28" r="15" fill="#d9ff63"/>
-      <path d="M27 20c1 5 4 7 9 8-5 1-8 4-9 9-1-5-4-8-9-9 5-1 8-3 9-8Z" fill="#111313"/>
-      <text x="50" y="23" fill="#777c77" font-family="Arial, sans-serif" font-size="7" font-weight="700" letter-spacing="1">КРАТКИЙ ИТОГ</text>
-      <text x="50" y="39" fill="#fff" font-family="Arial, sans-serif" font-size="11" font-weight="700">Что решили</text>
-      <rect x="17" y="60" width="204" height="36" rx="8" fill="#242725"/>
-      <circle cx="33" cy="78" r="8" fill="#d9ff63"/><path d="m29 78 3 3 5-6" fill="none" stroke="#111313" stroke-width="2"/>
-      <text x="49" y="81" fill="#fff" font-family="Arial, sans-serif" font-size="8">Упростить первый экран</text>
-      <rect x="17" y="104" width="204" height="36" rx="8" fill="#242725"/>
-      <circle cx="33" cy="122" r="8" fill="#d9ff63"/><path d="m29 122 3 3 5-6" fill="none" stroke="#111313" stroke-width="2"/>
-      <text x="49" y="125" fill="#fff" font-family="Arial, sans-serif" font-size="8">Подготовить прототип</text>
-      <text x="17" y="158" fill="#8a8e89" font-family="Arial, sans-serif" font-size="8">Мария · до четверга</text>
+    <rect x="110" y="50" width="320" height="360" rx="0 0 24 0" fill="#f3f6fa"/>
+    <text x="132" y="88" fill="#101828" font-family="Arial, sans-serif" font-size="15" font-weight="700">Распознавания</text>
+    <text x="132" y="103" fill="#5d718f" font-family="Arial, sans-serif" font-size="6.5">Записи и готовые результаты разговоров</text>
+
+    <g transform="translate(132 121)">
+      <rect width="84" height="57" rx="10" fill="#fff" stroke="#dfe7f1"/>
+      <circle cx="21" cy="28" r="13" fill="#eaf2ff"/>
+      <text x="42" y="26" fill="#101828" font-family="Arial, sans-serif" font-size="13" font-weight="700">12</text>
+      <text x="42" y="39" fill="#5d718f" font-family="Arial, sans-serif" font-size="5.5">Всего записей</text>
     </g>
+    <g transform="translate(224 121)">
+      <rect width="84" height="57" rx="10" fill="#fff" stroke="#dfe7f1"/>
+      <circle cx="21" cy="28" r="13" fill="#e9fbff"/>
+      <text x="42" y="26" fill="#101828" font-family="Arial, sans-serif" font-size="13" font-weight="700">1</text>
+      <text x="42" y="39" fill="#5d718f" font-family="Arial, sans-serif" font-size="5.5">В обработке</text>
+    </g>
+    <g transform="translate(316 121)">
+      <rect width="91" height="57" rx="10" fill="#fff" stroke="#dfe7f1"/>
+      <circle cx="21" cy="28" r="13" fill="#eafaf4"/>
+      <path d="m15 28 4 4 8-9" fill="none" stroke="#08a87a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="42" y="26" fill="#101828" font-family="Arial, sans-serif" font-size="13" font-weight="700">11</text>
+      <text x="42" y="39" fill="#5d718f" font-family="Arial, sans-serif" font-size="5.5">Готово</text>
+    </g>
+
+    <rect x="132" y="190" width="275" height="60" rx="11" fill="#fff" stroke="#dfe7f1"/>
+    <circle cx="153" cy="220" r="14" fill="#eaf2ff"/>
+    <text x="176" y="215" fill="#101828" font-family="Arial, sans-serif" font-size="8" font-weight="700">Добавить разговор</text>
+    <text x="176" y="229" fill="#5d718f" font-family="Arial, sans-serif" font-size="5.5">Запишите встречу или загрузите файл</text>
+    <rect x="343" y="206" width="52" height="28" rx="7" fill="#2d67f6"/>
+    <text x="355" y="223" fill="#fff" font-family="Arial, sans-serif" font-size="6" font-weight="700">Записать</text>
+
+    <rect x="132" y="263" width="275" height="116" rx="11" fill="#fff" stroke="#dfe7f1"/>
+    <text x="148" y="286" fill="#101828" font-family="Arial, sans-serif" font-size="9" font-weight="700">История обработок</text>
+    <path d="M132 301h275M132 339h275" stroke="#e7edf4"/>
+    <rect x="148" y="311" width="23" height="23" rx="7" fill="#eaf2ff"/>
+    <text x="181" y="320" fill="#101828" font-family="Arial, sans-serif" font-size="6.5" font-weight="700">Встреча команды.webm</text>
+    <text x="181" y="330" fill="#5d718f" font-family="Arial, sans-serif" font-size="5">Сегодня, 11:42</text>
+    <rect x="351" y="316" width="38" height="13" rx="6.5" fill="none" stroke="#08a87a"/>
+    <text x="361" y="325" fill="#08a87a" font-family="Arial, sans-serif" font-size="5">Готово</text>
+    <rect x="148" y="349" width="23" height="23" rx="7" fill="#eaf2ff"/>
+    <text x="181" y="358" fill="#101828" font-family="Arial, sans-serif" font-size="6.5" font-weight="700">Интервью с клиентом.mp4</text>
+    <text x="181" y="368" fill="#5d718f" font-family="Arial, sans-serif" font-size="5">Вчера, 16:08</text>
   </g>
 </svg>
